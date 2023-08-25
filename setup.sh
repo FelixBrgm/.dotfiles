@@ -10,12 +10,15 @@ source_directory="."
 target_directory="~/"
 
 for file in "$source_directory"/*; do
-    # Get the filename without the path
     filename=$(basename "$file")
-
-    # Check if the file is not 'setup.sh'
+    
     if [ "$filename" != "setup.sh" ]; then
-        # Create a symlink in the target directory
-        ln -s "$file" "$target_directory/$filename"
+        target_path="$target_directory/$filename"
+        
+        # Check if the target file already exists (whether it's a file or symlink)
+        if [ -e "$target_path" ]; then
+            rm "$target_path"
+        fi
+        ln -s "$file" "$target_path"
     fi
 done
