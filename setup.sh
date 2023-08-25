@@ -10,8 +10,9 @@ for file in ./* .[^.]*; do
     
     if [ "$filename" != "setup.sh" ]; then
         if [ "$filename" != ".git" ]; then
-            target_path="~/$filename"
+            target_path="$HOME/$filename"
         
+            echo $target_path
             # Check if the target file already exists (whether it's a file or symlink)
             if [ -e "$target_path" ]; then
                 rm $target_path
