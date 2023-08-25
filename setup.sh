@@ -12,7 +12,7 @@ for file in ./* .[^.]*; do
             echo $target_path
             # Check if the target file already exists (whether it's a file or symlink)
             if [ -e "$target_path" ]; then
-                rm "$target_path"
+                rm -rf "$target_path"
             fi
             ln -s "$(pwd)/$filename" "$target_path"
         fi
