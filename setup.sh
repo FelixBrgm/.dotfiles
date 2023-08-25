@@ -2,5 +2,5 @@
 # For setting up my unix development setup
 
 # Create symlinks
-rm ~/.bashrc
-ln -s .bashrc ~/.bashrc
+# rm ~/.bashrc
+# ln -s .bashrc ~/.bashrc
