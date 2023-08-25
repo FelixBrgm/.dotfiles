@@ -4,7 +4,6 @@
 # Create symlinks
 # ln -s "$(pwd)/.bashrc" ~/.bashrc
 
-
 for file in ./* .[^.]*; do
     filename=$(basename "$file")
     
@@ -15,7 +14,7 @@ for file in ./* .[^.]*; do
             echo $target_path
             # Check if the target file already exists (whether it's a file or symlink)
             if [ -e "$target_path" ]; then
-                rm $target_path
+                rm "$target_path"
             fi
             ln -s "$(pwd)/$filename" "$target_path"
         fi
