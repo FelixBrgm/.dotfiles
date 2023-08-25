@@ -2,8 +2,6 @@
 # For setting up my unix development setup
 
 # Create symlinks
-# ln -s "$(pwd)/.bashrc" ~/.bashrc
-
 for file in ./* .[^.]*; do
     filename=$(basename "$file")
     
