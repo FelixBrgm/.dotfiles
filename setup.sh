@@ -3,4 +3,4 @@
 
 # Create symlinks
 rm ~/.bashrc
-ln -s .bashrc ~/.bashrc
+ln -s "$(pwd)/source.bashrc" ~/.bashrc
