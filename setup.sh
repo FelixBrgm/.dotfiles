@@ -16,6 +16,7 @@ for file in ./* .[^.]*; do
             if [ -e "$target_path" ]; then
                 rm $filename
             ln -s "$(pwd)/$file" "$target_path"
+            fi
         fi
     fi
     echo $filename
