@@ -1,4 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =2
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/Users/felix/.unix'
+let g:netrw_dirhist_7='/Users/felix'
+let g:netrw_dirhist_6='/Users/felix/.unix'
+let g:netrw_dirhist_5='/Users/felix/workshop/.devcontainer'
+let g:netrw_dirhist_4='/Users/felix/workshop'
+let g:netrw_dirhist_3='/Users/felix/.unix'
 let g:netrw_dirhist_2='/Users/felix/workshop'
 let g:netrw_dirhist_1='/Users/felix/.unix'
