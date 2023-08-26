@@ -1,5 +1,0 @@
-[WARN  Fri Aug 25 16:47:26 2023] ...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:497: The `delete` command can only be used on files and directories
-[ERROR Sat Aug 26 14:41:01 2023] ...ree.nvim/lua/neo-tree/sources/filesystem/lib/fs_scan.lua:285: /Users/felix/workshop/.devcontainer :  ENOENT: no such file or directory: /Users/felix/workshop/.devcontainer
-[ERROR Sat Aug 26 14:41:01 2023] ...ree.nvim/lua/neo-tree/sources/filesystem/lib/fs_scan.lua:285: /Users/felix/workshop/.devcontainer :  ENOENT: no such file or directory: /Users/felix/workshop/.devcontainer
-[ERROR Sat Aug 26 14:41:01 2023] ...ree.nvim/lua/neo-tree/sources/filesystem/lib/fs_scan.lua:285: /Users/felix/workshop/.devcontainer :  ENOENT: no such file or directory: /Users/felix/workshop/.devcontainer
-[ERROR Sat Aug 26 14:41:01 2023] ...ree.nvim/lua/neo-tree/sources/filesystem/lib/fs_scan.lua:285: /Users/felix/workshop/.devcontainer :  ENOENT: no such file or directory: /Users/felix/workshop/.devcontainer
