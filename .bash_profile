@@ -4,7 +4,6 @@ export PS1="\W> "
 export PATH="$PATH:/opt/homebrew/bin"
 # END
 
-alias ld='echo && ls | cat && echo'
 alias ll='ls -la'
 alias code="/Applications/vscode.app/Contents/Resources/app/bin/code"
 kp () { 
